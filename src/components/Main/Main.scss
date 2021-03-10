@@ -1,0 +1,101 @@
+@import "../../util/color.scss";
+@import "../../util/animation.scss";
+
+.main {
+  max-width: 100%;
+  min-width: 1700px;
+  height: 100vh;
+  background-image: url(../../assets/images/background.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 9rem;
+
+  &-content {
+    &-title {
+      width: 40rem;
+      height: 7.2rem;
+      font-size: 5rem;
+      font-weight: 600;
+      overflow: hidden;
+      position: relative;
+      &-text1 {
+        position: absolute;
+        animation-name: textUP;
+        animation-duration: 0.6s;
+      }
+      &-text2 {
+        position: absolute;
+        animation: textUP 0.6s 0.2s, wait 0.2s;
+      }
+      &-text3 {
+        position: absolute;
+        left: 19rem;
+        animation: textUP 0.6s 0.4s, wait 0.4s;
+        z-index: 2;
+      }
+      &-under {
+        position: absolute;
+        bottom: 0;
+        left: 19rem;
+        z-index: 1;
+        width: 20rem;
+        height: 2rem;
+        background-color: $bg-main;
+        animation: underLine 0.6s 1.2s, wait 1.2s;
+      }
+    }
+
+    &-info {
+      margin-top: 1rem;
+      font-size: 2rem;
+      color: $ft-info;
+    }
+
+    &-btnarea {
+      margin-top: 6rem;
+      &-btn {
+        width: 26rem;
+        height: 4rem;
+        border: 1px solid $bd-gray;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+        font-size: 1.2rem;
+        border-radius: 0 15px 15px 15px;
+        transition: 0.2s all;
+
+        &:hover {
+          margin-left: 2rem;
+          background-color: $bg-main;
+          color: $ft-white;
+          border: none;
+        }
+      }
+    }
+  }
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    &-left {
+      width: 24rem;
+      height: 100%;
+      margin: 1rem;
+    }
+    &-right {
+      width: 24rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 1rem;
+
+      &-area {
+        width: 100%;
+        height: 24rem;
+      }
+    }
+  }
+}
