@@ -1,0 +1,29 @@
+@keyframes wait {
+  0% {
+    top: 12rem;
+  }
+  100% {
+    top: 12rem;
+  }
+}
+
+@keyframes textUP {
+  0% {
+    top: 12rem;
+  }
+  50% {
+    top: 5rem;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes underLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20rem;
+  }
+}
