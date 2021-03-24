@@ -1,5 +1,6 @@
 import memory from "../assets/images/Memory/memory.svg";
 import Ida from "../assets/images/Ida/IDA.svg";
+import Iport from "../assets/images/Iport/Iport.svg";
 
 const Project = [
   {
@@ -17,6 +18,14 @@ const Project = [
     date: "2020년 08월 | 진행중",
     url: "/project/ida",
     image: Ida,
+  },
+  {
+    name: "I`Prot",
+    info:
+      "나만의 포트폴리오 사이트를 만들기 위해 시작한 프로젝트입니다. 디자인과 프론트 복습을 주 목적으로 하여 개발하였고, 앞으로 개인 프로젝트 정리 사이트로 사용할 생각입니다.",
+    date: "2021년 03월 | 진행중",
+    url: "/project/iport",
+    image: Iport,
   },
 ];
 
