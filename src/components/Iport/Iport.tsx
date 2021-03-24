@@ -8,7 +8,6 @@ import ReactIcon from "../../assets/images/Icon/React.svg";
 import ScssIcon from "../../assets/images/Icon/sass.svg";
 import TsIcon from "../../assets/images/Icon/typescript.svg";
 import Mobx from "../../assets/images/Icon/mobx.svg";
-import SpringBoot from "../../assets/images/Icon/spring.svg";
 
 interface IportProps {}
 
@@ -17,7 +16,7 @@ const Iport = ({}: IportProps) => {
     <>
       <ProjectInfo
         title="I`Port"
-        date="2021.08 ~ 2021.12"
+        date="2021.03 ~ 현재 진행중"
         back={IportBack}
         photo={IportIcon}
         color="black"

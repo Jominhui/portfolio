@@ -18,7 +18,7 @@ const Ida = ({}: IdaProps) => {
     <>
       <ProjectInfo
         title="IDa"
-        date="2021.08 ~ 현재진행중"
+        date="2020.08 ~ 현재진행중"
         back={IDa}
         photo={IDaIcon}
         color=""

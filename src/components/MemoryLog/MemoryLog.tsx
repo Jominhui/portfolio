@@ -17,7 +17,7 @@ const MemoryLog = ({}: MemoryLogProps) => {
     <>
       <ProjectInfo
         title="memory.log"
-        date="2021.08 ~ 2021.12"
+        date="2020.08 ~ 2020.12"
         back={Memory}
         photo={MemoryIcon}
         color=""
