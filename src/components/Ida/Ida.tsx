@@ -21,6 +21,7 @@ const Ida = ({}: IdaProps) => {
         date="2021.08 ~ 현재진행중"
         back={IDa}
         photo={IDaIcon}
+        color=""
       >
         <div className="memory">
           <div className="memory-title">소개</div>

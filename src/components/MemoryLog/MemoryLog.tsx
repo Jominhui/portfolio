@@ -20,6 +20,7 @@ const MemoryLog = ({}: MemoryLogProps) => {
         date="2021.08 ~ 2021.12"
         back={Memory}
         photo={MemoryIcon}
+        color=""
       >
         <div className="memory">
           <div className="memory-title">소개</div>
