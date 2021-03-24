@@ -14,6 +14,15 @@ const App = () => {
         <Route exact path="/project" component={projectPage} />
         <Route exact path="/project/memory.log" component={projectInfoPage} />
         <Route exact path="/project/ida" component={projectInfoPage} />
+        <Route
+          exact
+          path="https://jominhui.github.io/portfolio/"
+          component={MainPage}
+        />
+        <Route exact path="/profile" component={profilePage} />
+        <Route exact path="/project" component={projectPage} />
+        <Route exact path="/project/memory.log" component={projectInfoPage} />
+        <Route exact path="/project/ida" component={projectInfoPage} />
       </Switch>
     </div>
   );
