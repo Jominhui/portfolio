@@ -74,6 +74,13 @@ const MemoryLog = ({}: MemoryLogProps) => {
             state가 아닌, 특정한 저장소에 데이터를 따로 모아놓고 관리하는
             것입니다.
           </div>
+
+          <div className="memory-title">MORE</div>
+          <div className="memory-info">
+            <a href="https://github.com/memory-log" target="_blank">
+              👋 https://github.com/memory-log
+            </a>
+          </div>
         </div>
       </ProjectInfo>
     </>

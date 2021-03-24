@@ -8,6 +8,10 @@ import ReactIcon from "../../assets/images/Icon/React.svg";
 import ScssIcon from "../../assets/images/Icon/sass.svg";
 import TsIcon from "../../assets/images/Icon/typescript.svg";
 import Mobx from "../../assets/images/Icon/mobx.svg";
+import MainPage from "../../assets/images/Iport/MainPage.png";
+import ProfilePage from "../../assets/images/Iport/ProfilePage.png";
+import ProjectPage from "../../assets/images/Iport/ProjectPage.png";
+import ProjectinfoPage from "../../assets/images/Iport/ProjectInfoPage.png";
 
 interface IportProps {}
 
@@ -47,6 +51,25 @@ const Iport = ({}: IportProps) => {
             프로젝트들을 하나하나 보았습니다. 코드의 문법이나 사용했던 언어들이
             달랐고 '아 이때는 이렇게 코드를 작성했구나' 하면서 안좋은 습관이나
             코드들은 좋게 바꾸어 좀 더 좋은 코드를 적을 수 있었습니다.
+          </div>
+
+          <div className="memory-title">페이지 구성</div>
+          <div className="memory-image">
+            <div>
+              <img src={MainPage} />
+              <img src={ProfilePage} />
+            </div>
+            <div>
+              <img src={ProjectPage} />
+              <img src={ProjectinfoPage} />
+            </div>
+          </div>
+
+          <div className="memory-title">MORE</div>
+          <div className="memory-info">
+            <a href="https://github.com/Jominhui/portfolio" target="_blank">
+              👋 https://github.com/Jominhui/portfolio
+            </a>
           </div>
         </div>
       </ProjectInfo>
