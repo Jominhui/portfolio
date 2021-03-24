@@ -1,6 +1,10 @@
 @import "../../util/color.scss";
 @import "../../util/animation.scss";
 
+* {
+  text-decoration: none;
+}
+
 .main {
   max-width: 100%;
   min-width: 1700px;
@@ -56,20 +60,59 @@
       &-btn {
         width: 26rem;
         height: 4rem;
-        border: 1px solid $bd-gray;
+        border: 1px solid $bd-lightgray;
         margin-top: 2rem;
         display: flex;
         align-items: center;
         padding-left: 2rem;
         font-size: 1.2rem;
-        border-radius: 0 15px 15px 15px;
-        transition: 0.2s all;
+        transition: 0.4s all;
+        color: $ft-lightgray;
+        position: relative;
+        box-sizing: border-box;
+
+        i {
+          position: absolute;
+          text-indent: -9999px;
+          background-color: $bg-black;
+        }
 
         &:hover {
-          margin-left: 2rem;
-          background-color: $bg-main;
-          color: $ft-white;
           border: none;
+          margin-left: 1rem;
+          color: $ft-black;
+        }
+
+        &:hover .line1 {
+          width: 1px;
+          height: 100%;
+          bottom: 0;
+          left: 0;
+          animation: line1 0.2s;
+        }
+
+        &:hover .line2 {
+          width: 100%;
+          height: 1px;
+          top: 0;
+          left: 0;
+          animation: line2 0.3s;
+        }
+
+        &:hover .line3 {
+          width: 1px;
+          height: 100%;
+          top: 0;
+          right: 0;
+          animation: line3 0.2s;
+        }
+
+        &:hover .line4 {
+          width: 100%;
+          height: 1px;
+          bottom: 0;
+          right: 0;
+          animation: line4 0.3s;
         }
       }
     }
