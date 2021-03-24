@@ -7,6 +7,7 @@ interface ProjectInfoProps {
   children: React.ReactNode;
   back: string;
   photo: string;
+  color: string | null;
 }
 
 const ProjectInfo = ({
@@ -15,6 +16,7 @@ const ProjectInfo = ({
   date,
   back,
   photo,
+  color,
 }: ProjectInfoProps) => {
   return (
     <>
@@ -28,7 +30,12 @@ const ProjectInfo = ({
           <div className="projectinfo-area-box">
             <img className="projectinfo-area-box-photo" src={photo} />
             <div className="projectinfo-area-box-text">
-              <div className="projectinfo-area-box-text-name">{title}</div>
+              <div
+                className="projectinfo-area-box-text-name"
+                style={color ? { color: color } : { color: "white" }}
+              >
+                {title}
+              </div>
               <div className="projectinfo-area-box-text-info">{date}</div>
             </div>
           </div>
