@@ -16,7 +16,7 @@ const Profile = ({}: ProfileProps) => {
       <div className="profile">
         <div className="profile-area">
           <div className="profile-area-box">
-            <div className="profile-area-box-photo"></div>
+            <div className="profile-area-box-photo" />
             <div className="profile-area-box-text">
               <div className="profile-area-box-text-name">조민희</div>
               <div className="profile-area-box-text-info">
