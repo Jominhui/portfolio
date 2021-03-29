@@ -39,7 +39,10 @@
       &-photo {
         width: 14rem;
         height: 14rem;
-        background-color: $bg-main;
+        background-image: url("../../assets/images/myPhoto.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         margin-left: 6rem;
         border-radius: 50%;
       }
