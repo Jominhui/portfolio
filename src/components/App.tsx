@@ -15,6 +15,7 @@ const App = () => {
         <Route exact path="/project/memory.log" component={projectInfoPage} />
         <Route exact path="/project/ida" component={projectInfoPage} />
         <Route exact path="/project/iport" component={projectInfoPage} />
+        <Route exact path="/project/fdt" component={projectInfoPage} />
       </Switch>
     </div>
   );

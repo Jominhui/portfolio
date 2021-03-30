@@ -1,6 +1,7 @@
 import memory from "../assets/images/Memory/memory.svg";
-import Ida from "../assets/images/Ida/IDA.svg";
+import Ida from "../assets/images/Ida/idaback.png";
 import Iport from "../assets/images/Iport/Iport.svg";
+import FDT from "../assets/images/FDT/FDTback.png";
 
 const Project = [
   {
@@ -11,11 +12,20 @@ const Project = [
     url: "/project/memory.log",
     image: memory,
   },
+
+  {
+    name: "FDT 무인 기숙사 관리 시스템",
+    info:
+      "코로나 19로 비대면이 중요시된 요즘, 기숙사에서 점호도 무인으로 할 수 있도록 시스템을 개발하였습니다. 사감선생님의 일거리가 훨씬 줄어 학생들, 선생님들 모두 편리하게 사용할 수 있습니다. 2020 마이스터고 연합 해커톤에서 제작하였습니다.",
+    date: "2020년 11월 | 2020년 11월",
+    url: "/project/fdt",
+    image: FDT,
+  },
   {
     name: "IDa",
     info:
       "대구소프트웨어고등학교 신입생 입학 시스템입니다. 학생들이 쉽고 편리하게 원서 접수를 할 수 있도록 제작 중입니다. 프론트엔드는 React, MobX, Scss, TypeScript로 제작 중이며, 백엔드은 SpringBoot, Kotlin, Swagger, Thymeleaf 로 제작 중입니다.",
-    date: "2020년 08월 | 진행중",
+    date: "2020년 09월 | 2021년 03월",
     url: "/project/ida",
     image: Ida,
   },

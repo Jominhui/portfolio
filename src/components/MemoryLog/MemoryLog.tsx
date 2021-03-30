@@ -3,12 +3,11 @@ import "./MemoryLog.scss";
 import Memory from "../../assets/images/Memory/memory.svg";
 import MemoryIcon from "../../assets/images/Memory/memoryIcon.svg";
 import ProjectInfo from "../ProjectInfo";
-import HtmlIcon from "../../assets/images/Icon/html.svg";
-import ReactIcon from "../../assets/images/Icon/React.svg";
-import ScssIcon from "../../assets/images/Icon/sass.svg";
-import TsIcon from "../../assets/images/Icon/typescript.svg";
-import Mobx from "../../assets/images/Icon/mobx.svg";
-import SpringBoot from "../../assets/images/Icon/spring.svg";
+import Page1 from "../../assets/images/Memory/page1.png";
+import Page2 from "../../assets/images/Memory/page2.png";
+import Page3 from "../../assets/images/Memory/page3.png";
+import Page4 from "../../assets/images/Memory/page4.png";
+import Page5 from "../../assets/images/Memory/page5.png";
 
 interface MemoryLogProps {}
 
@@ -23,26 +22,49 @@ const MemoryLog = ({}: MemoryLogProps) => {
         color=""
       >
         <div className="memory">
-          <div className="memory-title">소개</div>
+          <div className="memory-title">⭐소개</div>
           <div className="memory-info">
             롤링페이퍼를 웹 사이트에서 제작하게 하여 롤링 페이퍼를 잃어버리지
             않고 즐길 수 있도록 제작하였습니다. <br />
             대구 ICT 융합 엑스포에서 전시, 발표를 하였습니다
           </div>
 
-          <div className="memory-title">멤버</div>
+          <div className="memory-title">😊멤버</div>
           <div className="memory-info">
-            차승호, 임규민, 조민희, 정성훈, 제정민, 김진호
+            <p>차승호 (Web & Server)</p>
+            웹은 롤링페이퍼 인쇄부분, 롤링페이퍼 댓글 수정, 삭제 부분을 맡았고,
+            서버는 유저 인증부분, 회원관리 부분, 이미지 업로드 부분을
+            맡았습니다.
+            <p>제정민 (Server)</p>
+            롤링페이퍼 페이지, 댓글, 좋아요 부분을 맡았습니다.
+            <p>임규민 (Web)</p>
+            메인화면과 롤링페이퍼 조회, 롤링페이퍼 작성, 검색과 UI/UX 디자인을
+            맡았습니다.
+            <p>조민희 (Web)</p>
+            롤링페이퍼 댓글 작성, 롤링페이퍼 댓글 작성자 목록과 UI/UX 디자인을
+            맡았습니다.
+            <p>정성훈 (Web)</p>
+            로그인/회원가입 부분과 프로필 관리 부분을 맡았습니다.
           </div>
 
-          <div className="memory-title">사용 기술</div>
-          <div className="memory-icon">
-            <img src={HtmlIcon} alt="" />
-            <img src={ReactIcon} alt="" />
-            <img src={ScssIcon} alt="" />
-            <img src={TsIcon} alt="" />
-            <img src={Mobx} alt="" />
-            <img src={SpringBoot} alt="" />
+          <div className="memory-title">💻사용 기술</div>
+          <div className="memory-info">
+            <p>Frontend</p>
+            React.js, TypeScript, Scss, MobX
+            <p>Backend</p>
+            SpringBoot, JPA, MariaDB, JSP
+          </div>
+
+          <div className="memory-title">주요 기능</div>
+          <div className="memory-info">
+            <p>📄 롤링 페이퍼 페이지</p>
+            - 롤링 페이퍼 페이지를 전체공개/일부공개/나만보기 로 생성할 수
+            있습니다. <br />- 전체보기는 메인 페이지에 노출될 수 있으며,
+            일부공개는 특정 링크를 통해서만 접근이 가능합니다.
+            <p>💬 롤링페이퍼 댓글</p>
+            - 전체보기는 메인 페이지에 노출될 수 있으며, 일부공개는 특정 링크를
+            통해서만 접근이 가능합니다. <br />- 또한 원하는 위치에 글을 옮겨서
+            꾸밀 수 있습니다.
           </div>
 
           <div className="memory-title">프로젝트를 통해 얻은것</div>
@@ -73,6 +95,21 @@ const MemoryLog = ({}: MemoryLogProps) => {
             라이브러리란 간단히 말하자면 REACT의 트리 구조의 props 전달과
             state가 아닌, 특정한 저장소에 데이터를 따로 모아놓고 관리하는
             것입니다.
+          </div>
+
+          <div className="memory-title">페이지 구성</div>
+          <div className="memory-image">
+            <div>
+              <img src={Page1} alt="" />
+              <img src={Page2} alt="" />
+            </div>
+            <div>
+              <img src={Page3} alt="" />
+              <img src={Page4} alt="" />
+            </div>
+            <div>
+              <img src={Page5} alt="" />
+            </div>
           </div>
 
           <div className="memory-title">MORE</div>

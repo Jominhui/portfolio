@@ -4,6 +4,7 @@ import useStore from "../../../util/lib/useStore";
 import MemoryLog from "../../../components/MemoryLog";
 import Ida from "../../../components/Ida";
 import Iport from "../../../components/Iport";
+import FDT from "../../../components/Fdt";
 
 const ProjectInfoContainer = ({}) => {
   const { store } = useStore();
@@ -16,6 +17,8 @@ const ProjectInfoContainer = ({}) => {
     nowPage = <Ida />;
   } else if (page === "I`Prot") {
     nowPage = <Iport />;
+  } else if (page === "FDT 무인 기숙사 관리 시스템") {
+    nowPage = <FDT />;
   }
   return <>{nowPage}</>;
 };
