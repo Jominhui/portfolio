@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.45a5bc4a.chunk.css",
+    "main.css": "/portfolio/static/css/main.957ea1e3.chunk.css",
     "main.js": "/portfolio/static/js/main.6219a250.chunk.js",
     "main.js.map": "/portfolio/static/js/main.6219a250.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
@@ -8,9 +8,9 @@
     "static/js/2.1bcf231a.chunk.js": "/portfolio/static/js/2.1bcf231a.chunk.js",
     "static/js/2.1bcf231a.chunk.js.map": "/portfolio/static/js/2.1bcf231a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1ee40b8ad18b0e6c1becfd8ca404f2ee.js": "/portfolio/precache-manifest.1ee40b8ad18b0e6c1becfd8ca404f2ee.js",
+    "precache-manifest.fef657c1b423afa85aa58a75ce1258e0.js": "/portfolio/precache-manifest.fef657c1b423afa85aa58a75ce1258e0.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.45a5bc4a.chunk.css.map": "/portfolio/static/css/main.45a5bc4a.chunk.css.map",
+    "static/css/main.957ea1e3.chunk.css.map": "/portfolio/static/css/main.957ea1e3.chunk.css.map",
     "static/js/2.1bcf231a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1bcf231a.chunk.js.LICENSE.txt",
     "static/media/FDTback.png": "/portfolio/static/media/FDTback.28f2eead.png",
     "static/media/FDTlogo.svg": "/portfolio/static/media/FDTlogo.2522043b.svg",
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.1bcf231a.chunk.js",
-    "static/css/main.45a5bc4a.chunk.css",
+    "static/css/main.957ea1e3.chunk.css",
     "static/js/main.6219a250.chunk.js"
   ]
 }
