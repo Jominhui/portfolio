@@ -11,7 +11,7 @@
 
     &-title {
       font-size: 1.4rem;
-      color: $ft-gray;
+      font-weight: 600;
     }
 
     &-info {
@@ -39,7 +39,7 @@
       &-photo {
         width: 14rem;
         height: 14rem;
-        background-image: url("../../assets/images/myPhoto.png");
+        background-image: url("../../assets/images/my.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -88,7 +88,7 @@
 
       &-title {
         font-size: 1.2rem;
-        color: $ft-gray;
+        font-weight: 600;
       }
 
       &-skill {
@@ -120,7 +120,7 @@
       padding-left: 2rem;
       &-title {
         font-size: 1.2rem;
-        color: $ft-gray;
+        font-weight: 600;
       }
 
       &-list {
