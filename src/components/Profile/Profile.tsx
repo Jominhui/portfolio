@@ -47,7 +47,7 @@ const Profile = ({}: ProfileProps) => {
           </div>
         </div>
         <div className="profile-my">
-          <div className="profile-my-title">간단한 자기소개</div>
+          <div className="profile-my-title">📝 간단한 자기소개</div>
           <div className="profile-my-info">
             소소하게 하고싶은 것을 하고, 만들고 싶은 것을 만드는 개발자
             조민희입니다.
@@ -79,7 +79,7 @@ const Profile = ({}: ProfileProps) => {
             })}
           </div>
           <div className="profile-info-right">
-            <div className="profile-info-right-title">수상 및 자격증</div>
+            <div className="profile-info-right-title">🏆 수상 및 자격증</div>
             {Frize.map((res) => {
               return (
                 <div className="profile-info-right-list">
@@ -96,14 +96,14 @@ const Profile = ({}: ProfileProps) => {
 
         <div className="profile-infoarea">
           <div>
-            <div className="profile-my-title">경력 혹은 학력</div>
+            <div className="profile-my-title">💻 경력 혹은 학력</div>
             <div className="profile-my-info">
               대구 소프트웨어 마이스터 고등학교 ( 2019.03 ~ 현재 재학중 )
             </div>
           </div>
 
           <div>
-            <div className="profile-my-title">연락처</div>
+            <div className="profile-my-title">📔 연락처</div>
             <div className="profile-my-info">
               Phone : 010-8798-2443 | Email : rihito2021@naver.com
             </div>
