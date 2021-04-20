@@ -6,21 +6,34 @@
   flex-direction: column;
 
   &-my {
+    @media (max-width: 600px) {
+      width: 440px;
+    }
     width: 1100px;
     margin-top: 4rem;
 
     &-title {
       font-size: 1.4rem;
       font-weight: 600;
+      @media (max-width: 600px) {
+        margin-top: 2rem;
+      }
     }
 
     &-info {
+      @media (max-width: 600px) {
+        font-size: 1rem;
+      }
       font-size: 1.2rem;
       margin-top: 0.4rem;
     }
   }
 
   &-infoarea {
+    @media (max-width: 600px) {
+      flex-direction: column;
+      width: 450px;
+    }
     width: 1100px;
     margin: 4rem 0;
     display: flex;
@@ -29,6 +42,12 @@
 
   &-area {
     width: 1100px;
+    @media (max-width: 600px) {
+      width: 500px;
+      height: 400px;
+      margin-bottom: 200px;
+      background-size: none;
+    }
     height: 400px;
     background-image: url("../../assets/images/profilecover.svg");
     background-size: cover;
@@ -36,7 +55,15 @@
     &-box {
       margin-top: 12rem;
       display: flex;
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
       &-photo {
+        @media (max-width: 600px) {
+          height: 10rem;
+          width: 10rem;
+          margin-left: 1rem;
+        }
         width: 14rem;
         height: 14rem;
         background-image: url("../../assets/images/my.jpg");
@@ -47,12 +74,21 @@
         border-radius: 50%;
       }
       &-text {
+        @media (max-width: 600px) {
+          margin-left: 1rem;
+        }
         margin-left: 1.2rem;
         display: flex;
         flex-direction: column;
         &-name {
           color: $ft-white;
           font-size: 2rem;
+          @media (max-width: 600px) {
+            font-size: 1.4rem;
+            color: $ft-black;
+            margin-top: 2rem;
+            margin-left: 1rem;
+          }
           margin-top: 3.6rem;
           font-weight: 600;
         }
@@ -61,9 +97,16 @@
           font-size: 1.2rem;
           margin-top: 1.2rem;
           font-weight: 600;
+          @media (max-width: 600px) {
+            margin-left: 1rem;
+          }
         }
       }
       &-social {
+        @media (max-width: 600px) {
+          margin-top: 2rem;
+          margin-left: 1.8rem;
+        }
         margin-top: 4rem;
         margin-left: 10rem;
         display: flex;
@@ -78,12 +121,19 @@
   }
 
   &-info {
+    @media (max-width: 600px) {
+      width: 440px;
+      flex-direction: column;
+    }
     width: 1100px;
     margin-top: 4rem;
     display: flex;
     justify-content: space-between;
 
     &-left {
+      @media (max-width: 600px) {
+        width: 100%;
+      }
       width: 60%;
 
       &-title {
@@ -115,6 +165,12 @@
     }
 
     &-right {
+      @media (max-width: 600px) {
+        width: 100%;
+        margin-top: 4rem;
+        border-left: none;
+        padding-left: 0rem;
+      }
       width: 40%;
       border-left: 2px solid $bd-line;
       padding-left: 2rem;
