@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc334aa2689ead72e04c86d9475caf80",
+    "revision": "313ec9d16084cad80ca9f8acfa11a492",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "33dfe6148cc82d60fde0",
-    "url": "/portfolio/static/css/main.957ea1e3.chunk.css"
+    "revision": "f745d6ca3c7a1f4c62f1",
+    "url": "/portfolio/static/css/main.3cfbfc27.chunk.css"
   },
   {
-    "revision": "570dbe74fc8971cb9de8",
-    "url": "/portfolio/static/js/2.1bcf231a.chunk.js"
+    "revision": "00b334dddd15d6db3e65",
+    "url": "/portfolio/static/js/2.86ca644e.chunk.js"
   },
   {
     "revision": "4472b9b1c403804b7335229d4dbf4deb",
-    "url": "/portfolio/static/js/2.1bcf231a.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.86ca644e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33dfe6148cc82d60fde0",
-    "url": "/portfolio/static/js/main.6219a250.chunk.js"
+    "revision": "f745d6ca3c7a1f4c62f1",
+    "url": "/portfolio/static/js/main.f892ad8f.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -180,16 +180,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/React.844f87ee.svg"
   },
   {
+    "revision": "04dae7de962c126a236b17b8c0bd5e64",
+    "url": "/portfolio/static/media/artist.04dae7de.png"
+  },
+  {
     "revision": "4dc36663fea1c9dd74ab38ebfa6a694b",
     "url": "/portfolio/static/media/background.4dc36663.svg"
+  },
+  {
+    "revision": "67f84ddfebb72a254d3a59b89f910fd3",
+    "url": "/portfolio/static/media/book1.67f84ddf.png"
+  },
+  {
+    "revision": "2e4822b5989ca2f104e871d1a3ef266f",
+    "url": "/portfolio/static/media/books2.2e4822b5.png"
   },
   {
     "revision": "8b5c67bc32677c61ee50849e066dcf3e",
     "url": "/portfolio/static/media/css.8b5c67bc.svg"
   },
   {
+    "revision": "9b4def343bc5cc9c424612abb2070546",
+    "url": "/portfolio/static/media/eightLogo.9b4def34.svg"
+  },
+  {
     "revision": "1cb810b9ad0fc7b9b5b39aff954db224",
     "url": "/portfolio/static/media/facebook.1cb810b9.svg"
+  },
+  {
+    "revision": "c95492e1679c9a307dab3d54e7a37fbc",
+    "url": "/portfolio/static/media/game1.c95492e1.png"
+  },
+  {
+    "revision": "aa1a76b84762dfd0b062b871dfaadf82",
+    "url": "/portfolio/static/media/game2.aa1a76b8.png"
+  },
+  {
+    "revision": "03c7283179fb5f593c46b285e74b03e9",
+    "url": "/portfolio/static/media/game3.03c72831.png"
+  },
+  {
+    "revision": "69d0689036031bd7a03ac96927fc9438",
+    "url": "/portfolio/static/media/game4.69d06890.png"
   },
   {
     "revision": "3caa1bd964b96c96d0d3447af689a5ad",
@@ -210,6 +242,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9f88966706c0080f766d5a114b3aab2",
     "url": "/portfolio/static/media/js.c9f88966.svg"
+  },
+  {
+    "revision": "f738a7a99cc9b44e3b9e426d623492b9",
+    "url": "/portfolio/static/media/main1.f738a7a9.png"
+  },
+  {
+    "revision": "d60acf29f69f06a72ca27e25025914d7",
+    "url": "/portfolio/static/media/main2.d60acf29.png"
+  },
+  {
+    "revision": "2c12cad9aa22d4a99c4de9fbac579fca",
+    "url": "/portfolio/static/media/main3.2c12cad9.png"
+  },
+  {
+    "revision": "a76251a26e0c255d438dc9ff26ab6da8",
+    "url": "/portfolio/static/media/main4.a76251a2.png"
   },
   {
     "revision": "f852d79f5ffe35f210e49ae716a4b49b",
@@ -290,6 +338,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b2a83686329b978d275cad4f74141f0e",
     "url": "/portfolio/static/media/roket.b2a83686.svg"
+  },
+  {
+    "revision": "5980fcd68e53d4358d89667572d44e44",
+    "url": "/portfolio/static/media/studio1.5980fcd6.png"
+  },
+  {
+    "revision": "e51a07f2bb7e7ef6ee6bf294674aa9de",
+    "url": "/portfolio/static/media/studio2.e51a07f2.png"
   },
   {
     "revision": "f95017e201b8f0861959034d234a6c88",
