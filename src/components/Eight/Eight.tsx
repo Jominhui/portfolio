@@ -24,7 +24,7 @@ const Eight = ({}: EightProps) => {
     <>
       <ProjectInfo
         title="Eight Studio newClone"
-        date="2020.03 ~ 진행중"
+        date="2021.03 ~ 2021.04"
         back={EightMain}
         photo={Logo}
         color=""

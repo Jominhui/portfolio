@@ -42,7 +42,7 @@ const Project = [
     name: "Eight Studio newClone",
     info:
       "학교 웹프로그래밍 실무 시간에 프로젝트로 만든 사이트입니다. 그림을 그리면서 보았고 가고싶었던 회사인 에이트 스튜디오 사이트를 디자인을 새로하고 React와 TypeScript, MobX를 사용하여 만들었습니다.",
-    date: "2021년 03월 | 진행중",
+    date: "2021년 03월 | 2021년 04월",
     url: "/project/eight",
     image: Eight,
   },
