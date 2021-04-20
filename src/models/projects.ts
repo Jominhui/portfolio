@@ -2,6 +2,7 @@ import memory from "../assets/images/Memory/memory.svg";
 import Ida from "../assets/images/Ida/idaback.png";
 import Iport from "../assets/images/Iport/Iport.svg";
 import FDT from "../assets/images/FDT/FDTback.png";
+import Eight from "../assets/images/Eight/main1.png";
 
 const Project = [
   {
@@ -36,6 +37,14 @@ const Project = [
     date: "2021년 03월 | 진행중",
     url: "/project/iport",
     image: Iport,
+  },
+  {
+    name: "Eight Studio newClone",
+    info:
+      "학교 웹프로그래밍 실무 시간에 프로젝트로 만든 사이트입니다. 그림을 그리면서 보았고 가고싶었던 회사인 에이트 스튜디오 사이트를 디자인을 새로하고 React와 TypeScript, MobX를 사용하여 만들었습니다.",
+    date: "2021년 03월 | 진행중",
+    url: "/project/eight",
+    image: Eight,
   },
 ];
 
